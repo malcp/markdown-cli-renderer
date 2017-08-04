@@ -1,17 +1,17 @@
-# Install dependencies
-
-```js
-npm install
-```
-
 # Build
 
-```js
-npm run build
+```bash
+npm install && npm run build
 ```
 
-# Start
+# Install
 
-```js
-npm start <absolute origin file path> <absolute destination file path>
+```bash
+npm install -g
+```
+
+# Usage
+
+```bash
+markdown-mume-renderer <origin file path> <destination file path>
 ```
