@@ -5,6 +5,8 @@
 
 > Markdown to html conversion tool.
 
+Simple conversion tool that just works. It supports PlantUML, math typesetting and mermaid. Graphics are embedded into the HTML so only one file is generated.
+
 ## Build
 
 ```bash
