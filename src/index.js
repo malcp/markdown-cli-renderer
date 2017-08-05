@@ -9,7 +9,7 @@ var outputFilePath;
 
 /* Parse command parameters */
 program
-  .version('0.1.0')
+  .version('0.1.1')
   .arguments('<input> <output>')
   .action(function (input, output) {
      filePath = input;

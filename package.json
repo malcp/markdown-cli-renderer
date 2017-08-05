@@ -1,7 +1,7 @@
 {
-  "name": "markdown-mume-renderer",
-  "version": "0.1.1",
-  "description": "Markdown renderer that relies on @shd101wyy/mume",
+  "name": "markdown-cli-renderer",
+  "version": "0.1.2",
+  "description": "Markdown conversion tool that relies on @shd101wyy/mume",
   "author": "Marc Alcalà Prieto <marc.alcala@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -14,15 +14,17 @@
     "md",
     "html",
     "cli",
-    "renderer"
+    "renderer",
+    "math typesetting",
+    "mermaid"
   ],
   "bin": {
-    "markdown-mume-renderer": "dist/index.js"
+    "markdown-cli-renderer": "dist/index.js"
   },
   "scripts": {
     "build": "babel --plugins transform-runtime src -d dist",
     "start": "node dist/index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "dependencies": {
     "@shd101wyy/mume": "^0.1.3",
