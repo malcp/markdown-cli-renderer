@@ -2,5 +2,6 @@ language: node_js
 node_js:
  - '6'
  - '8'
-after_success: npm start test/assets/simple.md out.html
+before_script: make build
+after_success: make simple_test
 sudo: false
