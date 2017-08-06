@@ -1,7 +1,15 @@
 language: node_js
+
+os:
+  - linux
+  - osx
+
 node_js:
  - '6'
  - '8'
+
 before_script: make build
+
 after_success: make simple_test
+
 sudo: false
