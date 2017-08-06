@@ -1,6 +1,6 @@
 {
   "name": "markdown-cli-renderer",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Markdown to HTML conversion tool",
   "author": "Marc Alcalà Prieto <marc.alcala@gmail.com>",
   "license": "MIT",
