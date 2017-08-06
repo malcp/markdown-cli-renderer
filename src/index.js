@@ -9,7 +9,7 @@ var outputFilePath;
 
 /* Parse command parameters */
 program
-  .version('0.1.1')
+  .version(require('../package.json').version)
   .arguments('<input> <output>')
   .action(function (input, output) {
      filePath = input;
