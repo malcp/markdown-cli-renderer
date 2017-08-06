@@ -1,6 +1,6 @@
 {
   "name": "markdown-cli-renderer",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Markdown conversion tool that relies on @shd101wyy/mume",
   "author": "Marc Alcalà Prieto <marc.alcala@gmail.com>",
   "license": "MIT",
