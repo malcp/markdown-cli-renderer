@@ -7,6 +7,8 @@
 
 Simple conversion tool that just works. It supports PlantUML, math typesetting and mermaid. Graphics are embedded into the HTML so only one file is generated.
 
+This tool relies on [@shd101wyy/mume](https://github.com/shd101wyy/mume).
+
 ## Build
 
 ```bash
