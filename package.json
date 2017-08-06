@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/malcp/markdown-mume-renderer.git"
+    "url": "git://github.com/malcp/markdown-cli-renderer.git"
   },
   "keywords": [
     "markdown",
