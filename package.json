@@ -1,7 +1,7 @@
 {
   "name": "markdown-cli-renderer",
-  "version": "0.1.6",
-  "description": "Markdown conversion tool that relies on @shd101wyy/mume",
+  "version": "0.1.8",
+  "description": "Markdown to HTML conversion tool",
   "author": "Marc Alcalà Prieto <marc.alcala@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -16,7 +16,10 @@
     "cli",
     "renderer",
     "math typesetting",
-    "mermaid"
+    "mermaid",
+    "linux",
+    "osx",
+    "windows"
   ],
   "bin": {
     "markdown-cli-renderer": "dist/index.js"
