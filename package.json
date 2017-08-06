@@ -16,7 +16,10 @@
     "cli",
     "renderer",
     "math typesetting",
-    "mermaid"
+    "mermaid",
+    "linux",
+    "osx",
+    "windows"
   ],
   "bin": {
     "markdown-cli-renderer": "dist/index.js"
