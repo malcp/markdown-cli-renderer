@@ -31,7 +31,7 @@ markdown-cli-renderer <origin file path> <destination file path>
 
 When you find issues, please report them:
 
-  web: [https://github.com/malcp/markdown-cli-renderer/issues](https://github.com/malcp/markdown-cli-renderer/issues)
+* web: [https://github.com/malcp/markdown-cli-renderer/issues](https://github.com/malcp/markdown-cli-renderer/issues)
 
 Be sure to include all of the output from the command that didn't work as expected.
 
