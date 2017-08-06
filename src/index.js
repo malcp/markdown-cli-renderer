@@ -17,6 +17,11 @@ program
   });
 program.parse(process.argv);
 
+/* Show help if no parameters are passed */
+if ((typeof filePath == 'undefined') ||
+    (typeof outputFilePath == 'undefined')) {
+  program.help();
+}
 
 /* Ensure parameters are correct */
 if (!filePath.includes(".md")) {
