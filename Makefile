@@ -23,4 +23,7 @@ minor:
 	npm version minor
 
 major:
-		npm version major
+	npm version major
+
+publish:
+	npm publish
